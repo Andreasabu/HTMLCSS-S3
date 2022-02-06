@@ -1,0 +1,59 @@
+h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 500px;
+    font-style: bold;
+    font-family: "roboto",sans-serif;
+    margin-top: auto;
+    text-align: center;
+}
+nav{
+    height: fit-content;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+ .cards{
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+ }
+
+ .cards__img{
+    width: 300px;
+    height: 400px;
+ }
+
+ .cards__body{
+    width: 300px;
+    display: block;
+    text-align: center;
+ }
+
+ span{
+    display: block;
+    text-align: center;
+ }
+
+aside{
+text-align: right;
+}
+.centerLink{
+    text-align: center;
+}
+
+.subsc{
+    text-align: center;
+}
+.contacto{
+    text-align: center;
+}   
